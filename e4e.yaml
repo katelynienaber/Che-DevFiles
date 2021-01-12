@@ -1,0 +1,20 @@
+apiVersion: v2
+publisher: Broadcom
+name: e4e
+version: latest
+type: VS Code extension
+displayName: E4E
+title: EXPLORER FOR ENDEVOR
+description: SOMETHING ABOUT E4E
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+category: Other
+spec:
+  containers:
+    - image: "quay.io/eclipse/che-sidecar-node:che4z-9jfmb"
+      name: zowe-explorer
+      memoryLimit: "1500Mi"
+      env:
+       - name: ZOWE_CLI_HOME
+         value: /projects/.zowe
+  extensions:
+    - https://github.com/katelynienaber/Che-DevFiles/releases/download/e4e/explorer-for-endevor-0.11.0.vsix
