@@ -10,7 +10,7 @@ icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 category: Other
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-node:che4z-9jfmb"
+    - image: "quay.io/eclipse/che-sidecar-node:10-0cb5d78"
       name: zowe-explorer
       memoryLimit: "1500Mi"
       env:
