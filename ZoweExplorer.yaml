@@ -18,4 +18,4 @@ spec:
        - name: ZOWE_CLI_HOME
          value: /projects/.zowe
   extensions:
-    - http://zowe-jenkins.bpc.broadcom.net/job/rijfe01-test/job/master/9/artifact/dist/vscode-extension-for-zowe-fix2-1.11.0.vsix
+    - http://zowe-jenkins.bpc.broadcom.net/job/rijfe01-test/job/master/9/artifact/dist/explorer-for-endevor-fix2-0.11.0.vsix
