@@ -17,4 +17,4 @@ spec:
        - name: ZOWE_CLI_HOME
          value: /projects/.zowe
   extensions:
-    - https://github.com/katelynienaber/Che-DevFiles/releases/download/e4e/explorer-for-endevor-fix3-0.11.0.vsix
+    - https://github.com/katelynienaber/Che-DevFiles/releases/download/e4e/explorer-for-endevor-fix-final-0.11.0.vsix
